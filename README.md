@@ -1,16 +1,31 @@
-## Hi there 👋
+# 👋 Hi there, I'm Sai Narendra
 
-<!--
-**Sai4u-dev/Sai4u-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **Full Stack Engineer**  | 💻 Passionate about building scalable web applications  
+📍 Based in Hyderabad, India | 🧠 Currently upskilling in the **MERN Stack**
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript
+
+
+## 🎯 What I’m Working On
+- Upskilling in **MERN stack** via real-world projects and challenges  
+- Preparing for high-impact roles in product-based companies  
+- Mastering **Data Structures & Algorithms** on LeetCode and HackerRank  
+
+## 📫 Connect With Me
+
+| Platform       | Link                                                                                                  |
+|----------------|-------------------------------------------------------------------------------------------------------|
+| 🔗 LinkedIn    |     [linkedin.com/in/Narendra-4u](https://linkedin.com/in/narendra-4u)                                |
+| 💻 GitHub      |     [github.com/Sai4u-dev](https://github.com/sai4u-dev)                                              |
+| 🧠 LeetCode    |     [leetcode.com/u/sai4u](https://leetcode.com/u/sai4u)                                              |
+| 🎯 HackerRank  |     [hackerrank.com/iAmSaiNarendra](https://www.hackerrank.com/iAmSaiNarendra)                        |
+| 🧪 Code360     |       [codeninja.com/profiles/SaiNarendra](https://www.naukri.com/code360/profile/saiNarendra)        |
+
+
+## 📌 Fun Fact
+> I write code that not only works but also scales, and I'm always eager to learn new tech trends!
+
+
+
