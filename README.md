@@ -5,7 +5,10 @@
 
 
 ## 🛠️ Tech Stack
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, Tailwind CSS, Next.js
+- **Backend**: Express, Node.js, Java (Spring Core)
+- **Database**: SQL, MongoDB
+- **Others**: Git, GitHub, Vercel, Agile, Supabase
 
 
 ## 🎯 What I’m Working On
@@ -21,7 +24,7 @@
 | 💻 GitHub      |     [github.com/Sai4u-dev](https://github.com/sai4u-dev)                                              |
 | 🧠 LeetCode    |     [leetcode.com/u/sai4u](https://leetcode.com/u/sai4u)                                              |
 | 🎯 HackerRank  |     [hackerrank.com/iAmSaiNarendra](https://www.hackerrank.com/iAmSaiNarendra)                        |
-| 🧪 Code360     |       [codeninja.com/profiles/SaiNarendra](https://www.naukri.com/code360/profile/saiNarendra)        |
+| 🧪 Code360     |     [codeninja.com/profiles/SaiNarendra](https://www.naukri.com/code360/profile/saiNarendra)          |
 
 
 ## 📌 Fun Fact
