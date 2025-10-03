@@ -24,7 +24,6 @@
 | 💻 GitHub      |     [github.com/Sai4u-dev](https://github.com/sai4u-dev)                                              |
 | 🧠 LeetCode    |     [leetcode.com/u/sai4u](https://leetcode.com/u/sai4u)                                              |
 | 🎯 HackerRank  |     [hackerrank.com/iAmSaiNarendra](https://www.hackerrank.com/iAmSaiNarendra)                        |
-| 🧪 Code360     |     [codeninja.com/profiles/SaiNarendra](https://www.naukri.com/code360/profile/saiNarendra)          |
 
 
 ## 📌 Fun Fact
