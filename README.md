@@ -6,7 +6,7 @@
 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, CSS, JavaScript, Tailwind CSS, Next.js
-- **Backend**: Express, Node.js, Java (Spring Core)
+- **Backend**: Express, Node.js
 - **Database**: SQL, MongoDB
 - **Others**: Git, GitHub, Vercel, Agile, Supabase
 
