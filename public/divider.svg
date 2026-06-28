@@ -1,14 +1,146 @@
-<svg width="1200" height="24" viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00F5FF"/>
-      <stop offset="0.5" stop-color="#FF00F5"/>
-      <stop offset="1" stop-color="#00F5FF"/>
+    <linearGradient id="premiumText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#FFFFFF;#FFF8F2;#FFD7A3;#FFFFFF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%">
+        <animate attributeName="stop-color" values="#FFF8F2;#FFE8C9;#FFB347;#FFF8F2" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%">
+        <animate attributeName="stop-color" values="#FFB347;#FF8A00;#FFC766;#FFB347" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#FFFFFF;#FFE8C9;#FFAA33;#FFFFFF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0;0.4 0;-0.4 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <linearGradient id="shine" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="45%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="55%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="transparent"/>
+      <animate attributeName="x1" values="-100%;150%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;250%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="orangeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFB347"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="textGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#FF8A00" flood-opacity=".45" result="orange"/>
+      <feComposite in="orange" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#FF7A00" flood-opacity=".16"/>
+    </filter>
+
+    <clipPath id="heroClip">
+      <rect x="90" y="70" width="1020" height="490" rx="42"/>
+    </clipPath>
   </defs>
 
-  <rect x="0" y="11" width="1200" height="2" fill="#222222"/>
-  <rect x="-200" y="8" width="180" height="8" rx="4" fill="url(#g)">
-    <animate attributeName="x" values="-200;1200" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
+  <rect width="1200" height="630" fill="transparent"/>
+
+  <g clip-path="url(#heroClip)">
+    <rect x="90" y="70" width="1020" height="490" rx="42" fill="#FFFFFF" opacity=".035"/>
+    <ellipse cx="705" cy="300" rx="280" ry="175" fill="#FF8A00" opacity=".055" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".035;.075;.035" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <path d="M90 180H1110M90 295H1110M90 410H1110" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <path d="M245 70V560M485 70V560M725 70V560M965 70V560" stroke="#FFFFFF" stroke-opacity=".08"/>
+  </g>
+
+  <rect x="90" y="70" width="1020" height="490" rx="42" stroke="url(#orangeBorder)" stroke-width="1.4" opacity=".55"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="148" y="116" width="210" height="128" rx="28" fill="#FFFFFF" opacity=".08"/>
+    <rect x="148" y="116" width="210" height="128" rx="28" stroke="#FFFFFF" stroke-opacity=".22"/>
+    <circle cx="180" cy="150" r="15" fill="#FF7A00" opacity=".9"/>
+    <circle cx="205" cy="150" r="15" fill="#FFFFFF" opacity=".85"/>
+    <path d="M232 156C244 128 268 127 292 155" stroke="#FFB347" stroke-width="5" stroke-linecap="round"/>
+    <rect x="176" y="185" width="92" height="10" rx="5" fill="#FFFFFF" opacity=".9"/>
+    <rect x="176" y="208" width="126" height="8" rx="4" fill="#FFFFFF" opacity=".5"/>
+  </g>
+
+  <text x="415" y="160" fill="#FFB347" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="7">
+    DESIGN • BUILD • AUTOMATE
+  </text>
+
+  <rect x="415" y="184" width="172" height="42" rx="21" fill="#FFFFFF" opacity=".07"/>
+  <circle cx="440" cy="205" r="7" fill="#FF7A00">
+    <animate attributeName="opacity" values="1;.35;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="457" y="211" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">
+    AVAILABLE NOW
+  </text>
+
+  <text x="415" y="306" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-4" fill="url(#premiumText)" filter="url(#textGlow)">
+    Premium Digital
+  </text>
+  <text x="415" y="306" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-4" fill="url(#shine)" opacity=".25">
+    Premium Digital
+  </text>
+
+  <text x="415" y="382" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-4" fill="url(#premiumText)" filter="url(#textGlow)">
+    Experiences.
+  </text>
+  <text x="415" y="382" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="-4" fill="url(#shine)" opacity=".25">
+    Experiences.
+  </text>
+
+  <text x="417" y="422" fill="#FFFFFF" opacity=".82" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">
+    Web Design • Web Development • AI Services • Theme Customization
+  </text>
+
+  <text x="417" y="455" fill="#FFFFFF" opacity=".58" font-family="Inter, Arial, sans-serif" font-size="18">
+    I help brands launch sharper, faster, and convert more visitors.
+  </text>
+
+  <g>
+    <rect x="415" y="486" width="132" height="44" rx="22" fill="#FFFFFF" opacity=".075"/>
+    <text x="445" y="514" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Web Design</text>
+
+    <rect x="562" y="486" width="176" height="44" rx="22" fill="#FFFFFF" opacity=".075"/>
+    <text x="590" y="514" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Development</text>
+
+    <rect x="753" y="486" width="132" height="44" rx="22" fill="#FFFFFF" opacity=".075"/>
+    <text x="790" y="514" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">AI Services</text>
+
+    <rect x="900" y="486" width="172" height="44" rx="22" fill="#FFFFFF" opacity=".075"/>
+    <text x="930" y="514" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Customization</text>
+  </g>
+
+  <line x1="120" y1="92" x2="1080" y2="92" stroke="#FF7A00" stroke-width="4" stroke-linecap="round" pathLength="100"
+        stroke-dasharray="100" stroke-dashoffset="100" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" values="100;0;-100" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <line x1="1080" y1="538" x2="120" y2="538" stroke="#FFB347" stroke-width="4" stroke-linecap="round" pathLength="100"
+        stroke-dasharray="100" stroke-dashoffset="100" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" values="100;0;-100" dur="4s" repeatCount="indefinite"/>
+  </line>
 </svg>
