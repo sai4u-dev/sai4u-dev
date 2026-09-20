@@ -1,32 +1,35 @@
 # Hi, I'm Sai Narendra 👋
 
-### Software Engineer | Full-Stack Developer | React | Node.js | TypeScript | AWS | MongoDB | PostgreSQL
+### Software Engineer | Full-Stack Developer | React | Node.js | Spring Boot | TypeScript | AWS | MongoDB | PostgreSQL
 
 I build **full-stack web applications, backend APIs, and developer-focused products** with a focus on clean architecture, authentication, performance, and maintainable code.
 
-Currently working at **AccioJob** and actively preparing for **SDE-1 / Software Engineer opportunities at product companies and startups**.
+Currently working at **AccioJob** and open to **Software Engineer / SDE-1 opportunities** where I can contribute to building reliable, scalable products.
 
 ---
 
 ## 🚀 What I Build
 
-- Full-stack applications with **React, Next.js, Node.js and Express**
+- Full-stack applications with **React, Next.js, Node.js and Spring Boot**
 - REST APIs with authentication, authorization and validation
-- MongoDB-backed applications and data models
+- Backend systems using **MongoDB, PostgreSQL, Redis, and SQL**
 - AI-powered applications using LLM APIs
-- Secure application flows using **JWT, RBAC and HTTP-only cookies**
+- Secure application flows using **JWT, RBAC, HTTP-only cookies, and Rate Limiting**
 - File and media workflows using **AWS S3**
-- Algorithmic problem-solving and DSA
+- Algorithmic problem-solving and Data Structures & Algorithms
 
 ---
 
 ## 🧰 Tech Stack
 
+### Languages
+ `JavaScript` `TypeScript` `Java` `SQL`
+
 ### Frontend
 `HTML` `CSS` `JavaScript` `TypeScript` `React` `Next.js` `Redux Toolkit` `Tailwind CSS`
 
 ### Backend
-`Node.js` `Express.js` `REST APIs` `JWT` `RBAC`
+`Node.js` `Express.js` `Spring Boot` `REST APIs` `JWT` `RBAC`
 
 ### Databases
 `MongoDB` `SQL`
@@ -42,7 +45,7 @@ Currently working at **AccioJob** and actively preparing for **SDE-1 / Software 
 ## ⭐ Featured Projects
 
 ### 🔗 Accio Connect
-A student-focused social platform for connecting, sharing posts and interacting with a community.
+Production-oriented community platform for users to create communities, publish content, interact, and communicate.
 
 **Built with:** React, Node.js, Express, MongoDB, JWT, AWS S3
 
