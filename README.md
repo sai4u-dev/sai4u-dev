@@ -112,7 +112,7 @@ A structured collection of Data Structures & Algorithms implementations and prob
 
 I actively practice **Data Structures & Algorithms** on LeetCode.
 
-- **343+ LeetCode problems solved in JavaScript**
+- **500+ LeetCode problems solved in JavaScript**
 - Regular DSA practice
 - Focus areas: arrays, hashing, trees, graphs, binary search, greedy and dynamic programming
 
