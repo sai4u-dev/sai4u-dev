@@ -25,23 +25,49 @@ I enjoy exploring how complex software systems are designed, engineered, optimiz
 
 ## 🧰 Tech Stack
 
-### Languages
- `JavaScript` `TypeScript` `Java` `SQL`
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-### Frontend
-`HTML` `CSS` `JavaScript` `TypeScript` `React` `Next.js` `Redux Toolkit` `Tailwind CSS`
+**Frontend**
 
-### Backend
-`Node.js` `Express.js` `Spring Boot` `REST APIs` `JWT` `RBAC`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
-### Databases
-`MongoDB` `SQL`
+**Backend**
 
-### Cloud & Tools
-`AWS S3` `Firebase` `Supabase` `Git` `GitHub` `Vercel`
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### AI
-`OpenAI APIs` `Google Gemini` `NVIDIA NIM` `LLM Integrations`
+**Databases & Messaging**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+**AI & Agentic AI**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+**DevOps & Cloud**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
@@ -149,17 +175,15 @@ I'm currently focused on improving:
 
 ---
 
-## 📈 Engineering Principles
+## 🚀 Engineering Focus
 
-I care about:
-
-- Writing maintainable code over clever code
-- Designing APIs around clear contracts
-- Validating inputs at system boundaries
-- Treating authentication and authorization as first-class concerns
-- Understanding database access patterns and indexes
-- Measuring performance before optimizing
-- Building features that solve actual user problems
+- **Software Engineering:** Data Structures & Algorithms, Object-Oriented Programming, Design Patterns, SOLID Principles, and Clean Architecture.
+- **Backend Engineering:** Scalable APIs, Microservices, Database Engineering, Caching, Authentication, and Performance Optimization.
+- **Distributed Systems:** Event-Driven Architecture, Message Queues, Apache Kafka, Concurrency, Fault Tolerance, and System Reliability.
+- **AI & Agentic AI:** Large Language Models, RAG Pipelines, AI Agents, Multi-Agent Systems, Tool Calling, and Workflow Orchestration.
+- **Data Engineering:** Data Pipelines, Stream Processing, Data Modeling, Distributed Data Processing, and Real-Time Systems.
+- **System Design:** High-Level Design (HLD), Low-Level Design (LLD), Scalability, Availability, Observability, and System Architecture.
+- **High-Performance Computing:** C++, Memory Management, Multithreading, Low-Latency Systems, and Performance Engineering.
 
 ---
 
