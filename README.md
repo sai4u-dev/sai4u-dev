@@ -1,10 +1,13 @@
 # Hi, I'm Sai Narendra 👋
+## Software Engineering · Backend Engineering · Agentic AI · AI Systems
 
-### Software Engineer | Full-Stack Developer | React | Node.js | Spring Boot | TypeScript | AWS | MongoDB | PostgreSQL
+Currently working at AccioJob and open to Software Engineer / SDE-1 opportunities where I can contribute to building reliable, scalable, and impactful software products.
 
-I build **full-stack web applications, backend APIs, and developer-focused products** with a focus on clean architecture, authentication, performance, and maintainable code.
+I'm a software engineer focused on building production-oriented applications while continuously strengthening my computer science fundamentals and engineering skills.
 
-Currently working at **AccioJob** and open to **Software Engineer / SDE-1 opportunities** where I can contribute to building reliable, scalable products.
+My interests extend beyond conventional full-stack development into high-performance software engineering, scalable backend architectures, distributed systems, data-intensive applications, Agentic AI, and AI-powered systems.
+
+I enjoy exploring how complex software systems are designed, engineered, optimized, and scaled — combining strong fundamentals with hands-on implementation to build solutions that address real-world engineering challenges.
 
 ---
 
